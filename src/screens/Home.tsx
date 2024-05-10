@@ -20,7 +20,7 @@ const Home = (props: Props) => {
         backgroundColor: theme.primary,
         width: '100%',
         alignItems: 'center',
-        height: '100%',
+
       }}>
       <SafeAreaView style={{alignItems: 'center', justifyContent: 'center'}}>
         <Switch onValueChange={toggleTheme} value={theme.isDark} />
